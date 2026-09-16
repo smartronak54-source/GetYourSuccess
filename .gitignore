@@ -1,0 +1,49 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.ap_
+*.dex
+*.class
+*.jar
+*.aar
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+local.properties
+gradle.properties
+
+# Firebase
+google-services.json
+serviceAccountKey.json
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Generated files
+gen/
+out/
+
+# Miscellaneous
+*.bak
+*.tmp
+*~
