@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Study Planner"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/et_exam_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Exam Name"
+            android:layout_margin="8dp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/et_exam_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Exam Date (DD/MM/YYYY)"
+            android:inputType="date"
+            android:layout_margin="8dp"
+            android:padding="12dp" />
+
+        <Spinner
+            android:id="@+id/spn_exam_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp" />
+
+        <Button
+            android:id="@+id/btn_generate_plan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Generate Study Plan"
+            android:layout_margin="8dp"
+            android:backgroundTint="#2196F3" />
+
+    </LinearLayout>
+
+</ScrollView>
